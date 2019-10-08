@@ -1,1 +1,10 @@
-Hello world!
+Hello World!
+
+Git commit and push workflow
+1. Make changes to the project
+2. Open GitKraken(Client)
+3. Stage files with changes
+4. Add a commit message(no exceptions.  You can't commit documents without it)
+5. Commit files to Client
+6. Push files from computer to cloud.  Do this often.  It is very important
+7. If unsure, check on GitHub to see if the changes have appeared.
