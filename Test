@@ -1,6 +1,6 @@
 Hello World!
 
-Git commit and push workflow
+Git Commit and Push Workflow
 1. Make changes to the project
 2. Open GitKraken(Client)
 3. Stage files with changes
@@ -8,3 +8,10 @@ Git commit and push workflow
 5. Commit files to Client
 6. Push files from computer to cloud.  Do this often.  It is very important
 7. If unsure, check on GitHub to see if the changes have appeared.
+
+Git Branching Workflow
+1. Click 'Branch'
+2. Name your branch - make the name descriptive of what you intend to do.  The name can have no spaces
+3. Make changes to project.  This is what I am doing now by writing this.
+4. Commit changes.  See workflow above.
+5. Whennfinished work on branch merge it into 'Master'
