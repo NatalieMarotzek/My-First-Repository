@@ -24,7 +24,7 @@ h2 {color: white;
     background-color: inherit;
 }
 
-navbar a {
+.navbar a {
     float: center;
     text-align: center;
     text-decoration: none;
@@ -38,7 +38,18 @@ navbar a {
     padding: 14px 45px;
     padding-left: 30px;
     padding-right: 30px;
+    cursor: pointer;
     background-color: inherit;
+}
+
+.btn:hover {
+    color: white;
+    background-color: cyan;
+}
+
+.myActive {
+    color: white;
+    background-color: cyan;
 }
 
 p {
