@@ -10,22 +10,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <script
-    type="text/javascript"
-    src="/js/lib/dummy.js"
-    
-  ></script>
+ 
 
-    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+   
     <link rel="stylesheet" type="text/css" href="Style.css">
-
-
-
-
-
-  <!-- TODO: Missing CoffeeScript 2 -->
-
-  <script type="text/javascript" src="Script.js"></script>
 
 </head>
 <body>
@@ -43,26 +31,12 @@
     </center>
   </div>
 
-<Body>
   <p>
     This is a game where you explore a cave full of geological finds. Can you find all 20 unique rocks and gems?</p>
 
     <p>Please play and review.  Your opinion is important to me!</p>
-</Body>
-
-
-  
-  <script>
-    // tell the embed parent frame the height of the content
-    if (window.parent && window.parent.parent){
-      window.parent.parent.postMessage(["resultsFrame", {
-        height: document.body.getBoundingClientRect().height,
-        slug: ""
-      }], "*")
-    }
-
-    // always overwrite window.name, in case users try to set it manually
-    window.name = "result"
-  </script>
 </body>
+<footer>
+    <script type="text/javascript" src="Script.js"></script>
+</footer>
 </html>

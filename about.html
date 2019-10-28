@@ -10,23 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <script
-    type="text/javascript"
-    src="/js/lib/dummy.js"
-    
-  ></script>
-
-    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+ 
     <link rel="stylesheet" type="text/css" href="Style.css">
 
 
-  <!-- TODO: Missing CoffeeScript 2 -->
-
-  <script type="text/javascript" src="Script.js"></script>
-
 </head>
 <body>
-    <a href="home.html" style="text-decoration: none;"><h1>Explorer Minigame!</h1></a>
+    <a href="index.html" style="text-decoration: none;"><h1>Explorer Minigame!</h1></a>
 
   <h2>A test game made with code</h2>
 
@@ -40,28 +30,14 @@
       </center>
     </div>
 
-<Body>
   <p>
     ABOUT THIS WEBSITE</p>
     <p>Hi.  My name is Natalie Marotzek, and I am the one who made this website.</p>  
     <p>I made this game as a project for learning HTML and game coding.
     Please give it a try and let me know what you think.  I can take constructive criticism, but please don't be rude about it.  This is my first full coding adventure, after all.</p>
     <p>The aim of the game is that you are a geologist exploring a recently discovered cave.  You've been tasked to find what this cave holds and bring samples back with you.</p>
-</Body>
-
-
-  
-  <script>
-    // tell the embed parent frame the height of the content
-    if (window.parent && window.parent.parent){
-      window.parent.parent.postMessage(["resultsFrame", {
-        height: document.body.getBoundingClientRect().height,
-        slug: ""
-      }], "*")
-    }
-
-    // always overwrite window.name, in case users try to set it manually
-    window.name = "result"
-  </script>
 </body>
+<footer>
+    <script type="text/javascript" src="Script.js"></script>
+</footer>
 </html>

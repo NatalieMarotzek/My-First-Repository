@@ -35,9 +35,9 @@ h2 {color: white;
     font-size: 25px;
     border: none;
     outline: none;
-    padding: 14px 45px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 14px 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     cursor: pointer;
     background-color: inherit;
 }
@@ -59,3 +59,9 @@ p {
     text-align: center;
     font-size: 20px;
 }
+
+#myCanvas {
+    background-color: inherit;
+    border: white;
+    border-style: outset;
+  }

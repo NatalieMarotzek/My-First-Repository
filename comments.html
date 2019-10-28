@@ -10,23 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <script
-    type="text/javascript"
-    src="/js/lib/dummy.js"
-    
-  ></script>
-
-    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+ 
     <link rel="stylesheet" type="text/css" href="Style.css">
 
 
-  <!-- TODO: Missing CoffeeScript 2 -->
-
-  <script type="text/javascript" src="Script.js"></script>
-
 </head>
 <body>
-    <a href="home.html" style="text-decoration: none;"><h1>Explorer Minigame!</h1></a>
+    <a href="index.html" style="text-decoration: none;"><h1>Explorer Minigame!</h1></a>
 
   <h2>A test game made with code</h2>
 
@@ -40,24 +30,9 @@
       </center>
     </div>
 
-<Body>
-  <p>
-    Comments page</p>
-</Body>
-
-
-  
-  <script>
-    // tell the embed parent frame the height of the content
-    if (window.parent && window.parent.parent){
-      window.parent.parent.postMessage(["resultsFrame", {
-        height: document.body.getBoundingClientRect().height,
-        slug: ""
-      }], "*")
-    }
-
-    // always overwrite window.name, in case users try to set it manually
-    window.name = "result"
-  </script>
+  <p>Comments page</p>
 </body>
+<footer>
+    <script type="text/javascript" src="Script.js"></script>
+</footer>
 </html>

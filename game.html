@@ -16,13 +16,9 @@
   <link rel="stylesheet" type="text/css" href="Style.css">
 
 
-  <!-- TODO: Missing CoffeeScript 2 -->
-
-  <script type="text/javascript" src="Script.js"></script>
-
 </head>
 <body>
-    <a href="home.html" style="text-decoration: none;"><h1>Explorer Minigame!</h1></a>
+    <a href="index.html" style="text-decoration: none;"><h1>Explorer Minigame!</h1></a>
 
   <h2>A test game made with code</h2>
 
@@ -36,24 +32,11 @@
       </center>
     </div>
 
-<Body>
-  <p>
-    Game goes here.</p>
-</Body>
-
-
-  
-  <script>
-    // tell the embed parent frame the height of the content
-    if (window.parent && window.parent.parent){
-      window.parent.parent.postMessage(["resultsFrame", {
-        height: document.body.getBoundingClientRect().height,
-        slug: ""
-      }], "*")
-    }
-
-    // always overwrite window.name, in case users try to set it manually
-    window.name = "result"
-  </script>
+    <p>THIS IS A TEST UNTIL THE REAL GAME IS MADE!</p>
+    <p>Use WASD to move and G to return to the middle.</p>
+    <p><canvas id="myCanvas" width="500px" height="500px"></canvas></p>
 </body>
+<footer>
+    <script type="text/javascript" src="Script.js"></script>
+</footer>
 </html>
