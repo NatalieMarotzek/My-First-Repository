@@ -1,0 +1,17 @@
+
+Game sprite colour pallet for Piskel
+
+
+Skin colour - #f1bf98 (Pale Gold)
+
+Shading - #764248 (Tuscan Red)
+
+Outline - #000000 (Registration Black)
+
+Eye sclera - #ffffff (Pure White)
+
+Hair, eye iris, boots and belt- #2d1115 (Dark Sienna)
+
+Shirt - #b1ae91 (Khaki)
+
+Pants - #2e4057 (Charcoal)
